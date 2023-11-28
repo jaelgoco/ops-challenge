@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  app:
+    image: 'osp-challenge:latest'
+    build:
+      context: .
+    container_name: osp
+    ports:
+      - "8080:8080"
