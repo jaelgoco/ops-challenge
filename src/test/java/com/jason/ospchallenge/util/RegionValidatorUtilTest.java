@@ -18,6 +18,9 @@ class RegionValidatorUtilTest {
         assertTrue(validateRegion("SA"));
         assertTrue(validateRegion("AF"));
         assertTrue(validateRegion("CA"));
+        assertTrue(validateRegion("ALL"));
+        assertTrue(validateRegion("eu"));
+        assertTrue(validateRegion("us"));
 
         assertThrows(InvalidRegionException.class, () -> validateRegion("CNG"));
     }

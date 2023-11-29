@@ -2,10 +2,9 @@ package com.jason.ospchallenge.service;
 
 import com.jason.ospchallenge.controller.exception.InternalServerErrorException;
 import com.jason.ospchallenge.controller.exception.InvalidRegionException;
-import com.jason.ospchallenge.domain.data.Prefix;
+import com.jason.ospchallenge.model.Prefix;
 import com.jason.ospchallenge.webclient.IpRangeClient;
 import lombok.RequiredArgsConstructor;
-import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
 

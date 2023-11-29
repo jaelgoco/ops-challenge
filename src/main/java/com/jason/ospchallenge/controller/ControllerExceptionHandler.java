@@ -2,7 +2,7 @@ package com.jason.ospchallenge.controller;
 
 import com.jason.ospchallenge.controller.exception.InternalServerErrorException;
 import com.jason.ospchallenge.controller.exception.InvalidRegionException;
-import com.jason.ospchallenge.domain.data.ErrorDto;
+import com.jason.ospchallenge.model.ErrorDto;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;

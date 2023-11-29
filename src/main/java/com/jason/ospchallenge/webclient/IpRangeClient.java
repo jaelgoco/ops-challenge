@@ -1,7 +1,7 @@
 package com.jason.ospchallenge.webclient;
 
-import com.jason.ospchallenge.domain.data.IpRange;
-import com.jason.ospchallenge.domain.data.Prefix;
+import com.jason.ospchallenge.model.IpRange;
+import com.jason.ospchallenge.model.Prefix;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;

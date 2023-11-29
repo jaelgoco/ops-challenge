@@ -1,4 +1,4 @@
-package com.jason.ospchallenge.domain.data;
+package com.jason.ospchallenge.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.*;

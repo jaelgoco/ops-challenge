@@ -2,14 +2,13 @@ package com.jason.ospchallenge.service;
 
 import com.jason.ospchallenge.controller.exception.InternalServerErrorException;
 import com.jason.ospchallenge.controller.exception.InvalidRegionException;
-import com.jason.ospchallenge.domain.data.Prefix;
+import com.jason.ospchallenge.model.Prefix;
 import com.jason.ospchallenge.webclient.IpRangeClient;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.web.reactive.function.client.WebClientException;
 import org.springframework.web.reactive.function.client.WebClientResponseException;
 import reactor.core.publisher.Flux;
 
